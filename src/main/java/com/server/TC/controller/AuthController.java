@@ -5,7 +5,7 @@ import com.server.TC.model.User;
 import com.server.TC.repository.UserRepository;
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "https://textchat-front.onrender.com") // Allow frontend
+@CrossOrigin(origins = "https://regal-gumdrop-df1c2e.netlify.app") // Allow frontend
 public class AuthController {
     
  private final UserRepository repo;
